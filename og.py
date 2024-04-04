@@ -7,8 +7,8 @@ from sklearn.cluster import KMeans
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
-        client_id="1561cca081d44aef84347b030c9f0073",
-        client_secret="32610111e6ba458ab8a587233ba16da8",
+        client_id="",
+        client_secret="",
         redirect_uri="http://localhost:8888/callback",
         scope="playlist-read-private playlist-modify-public playlist-modify-private",
     )
